@@ -1,0 +1,29 @@
+@use "../abstracts/" as *;
+
+html {
+  font-size: 70%;
+  @include md {
+    font-size: 80%;
+  }
+  @include lg {
+    font-size: 90%;
+  }
+
+  @include xl {
+    font-size: 100%; // 1rem = 16px;
+  }
+}
+
+body {
+  font: {
+    //size: 1rem;
+    family: sans-serif;
+    weight: 400;
+  }
+
+  height: auto;
+  @include lg {
+    height: 100vh;
+  }
+  
+}

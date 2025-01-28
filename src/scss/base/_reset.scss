@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+  &:focus {
+    outline: none;
+  }
+}
+
+button:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  &:focus {
+    outline: none;
+  }
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
