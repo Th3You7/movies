@@ -1,8 +1,8 @@
-import { CleanWebpackPlugin } from "clean-webpack-plugin";
+import { CleanWebpackPlugin } from 'clean-webpack-plugin';
 
 export default {
   entry: {
-    main: "./src/js/index.js",
+    main: './src/js/index.js',
   },
   plugins: [new CleanWebpackPlugin()],
 
@@ -10,15 +10,15 @@ export default {
     rules: [
       {
         test: /\.html$/,
-        use: ["html-loader"],
+        use: ['html-loader'],
       },
       {
         test: /\.(svg|png|jpg|gif)$/,
         use: {
-          loader: "file-loader",
+          loader: 'file-loader',
           options: {
-            name: "[name].[hash].[ext]",
-            outputPath: "imgs",
+            name: '[name].[hash].[ext]',
+            outputPath: 'imgs',
           },
         },
       },
