@@ -1,6 +1,12 @@
 //  Breaking Points and Media term
-$mqTerm: "only screen";
-$bp-xl: "min-width: 1200px";
-$bp-lg: "min-width: 992px";
-$bp-md: "min-width: 768px";
-$bp-sm: "max-width: 767px";
+$mqTerm: 'only screen';
+$bp-xl: 'min-width: 1200px';
+$bp-lg: 'min-width: 992px';
+$bp-md: 'min-width: 768px';
+$bp-sm: 'max-width: 767px';
+
+// vars for colors
+$prim_color: #020f1d;
+$sec_color: #1c2735;
+$wht_color: #ffffff;
+$body_color: #1e1e1e;
