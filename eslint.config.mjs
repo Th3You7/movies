@@ -33,7 +33,7 @@ export default [
           arrowParens: 'always',
         },
       ], // Enforce Prettier formatting
-      'no-console': 'warn',
+      // 'no-console': 'warn',
       'no-unused-vars': 'warn',
       eqeqeq: 'error',
       curly: 'error',
