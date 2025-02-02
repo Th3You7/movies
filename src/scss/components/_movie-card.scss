@@ -1,0 +1,28 @@
+@use '../abstracts/' as *;
+
+.movie-card {
+  display: block;
+  width: 13rem;
+
+  &__image {
+    height: 18.75rem;
+    border-radius: 1.5rem;
+  }
+  &__title {
+    color: $wht_color;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0.75rem 0;
+  }
+  &__details {
+    color: rgba($wht_color, 0.5);
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    //justify-content: center;
+    gap: 1rem;
+  }
+  &__star {
+    color: #ffa401;
+  }
+}

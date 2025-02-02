@@ -1,0 +1,14 @@
+@use '../abstracts/' as *;
+
+.genre-filter__badge {
+  display: inline-flex;
+  // width: 12.5rem;
+  flex-basis: 12.5rem;
+  padding: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  color: $wht_color;
+  background: rgba($wht_color, 0.1);
+  border-radius: 1rem;
+}

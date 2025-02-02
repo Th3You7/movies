@@ -1,0 +1,34 @@
+@use '../abstracts/' as *;
+.movies-section {
+  width: 100%;
+  overflow: hidden;
+  margin: 1.5rem 0;
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+  }
+  &__title {
+    color: $wht_color;
+    font: {
+      size: 2rem;
+      weight: 400;
+    }
+  }
+  &__filter-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 35px;
+    background: $prim_color;
+    color: $wht_color;
+    padding: 0.5rem 1rem;
+    gap: 1rem;
+  }
+  &__grid {
+    display: flex;
+    gap: 1rem;
+    @include hide-scrollbar;
+  }
+}
